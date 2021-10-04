@@ -18,14 +18,14 @@
         <img src="images/lemonade.png"   alt="lemonade-image">
 
     </div>
-    <div class="middle-container">
+    <div class="middle-container" data-aos="fade-left">
       <div class="profile">
         <img src="images/profile.gif" width="200px" height="200px" alt="profile-image">
         <h2>Hello.</h2>
         <p class="intro">I'm a full-stack web developer and a coffee addict❤️. </p>
       </div>
       <hr>
-      <div class="skills">
+      <div class="skills" data-aos="fade-right">
         <h2>My Skills.</h2>
         <div class="skill-row">
           <img class="skill" src="images/coding.png" alt="skills">
@@ -40,7 +40,7 @@
       </div>
       <hr>
 
-      <div class="contact-me">
+      <div class="contact-me" data-aos="fade-down">
         <h2>Get In Touch</h2>
 
         <h3>If you love designing & developing.</h3>
@@ -61,6 +61,16 @@
 
        © 2021 Anisha Roy.</p>
     </div>
+    
+<!--     Our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
+    
 
   </body>
 </html>
